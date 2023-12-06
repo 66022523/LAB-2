@@ -1,0 +1,41 @@
+body {
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header,
+nav,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header {
+    height: 100px;
+    font-size: 50px;
+    background-color: violet;
+}
+
+nav {
+    color: white;
+    height: 50px;
+    font-size: 25px;
+    background-color: purple;
+}
+
+div {
+    padding: 5px;
+    height: 550px;
+    color: white;
+    background-color: gray;
+}
+
+footer {
+    height: 50px;
+    font-size: 50px;
+    background-color: violet;
+}
